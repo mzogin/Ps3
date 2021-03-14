@@ -1,0 +1,799 @@
+desc: (none)
+cmd: ./ED
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2568982
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=6419863
+mem_heap_B=3220760
+mem_heap_extra_B=6272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=8859465
+mem_heap_B=5641728
+mem_heap_extra_B=11112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=11742631
+mem_heap_B=8502872
+mem_heap_extra_B=16832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=13839479
+mem_heap_B=10583704
+mem_heap_extra_B=20992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=15936327
+mem_heap_B=12664536
+mem_heap_extra_B=25152
+mem_stacks_B=0
+heap_tree=detailed
+n2: 12664536 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12505000 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 12505000 0x10A594: main (main.cpp:14)
+ n0: 159536 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=18517063
+mem_heap_B=15225560
+mem_heap_extra_B=30272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=22549463
+mem_heap_B=19227160
+mem_heap_extra_B=38272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=26581863
+mem_heap_B=23228760
+mem_heap_extra_B=46272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=30488473
+mem_heap_B=25539684
+mem_heap_extra_B=50028
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=33356845
+mem_heap_B=26059892
+mem_heap_extra_B=49820
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=36335539
+mem_heap_B=26600108
+mem_heap_extra_B=49604
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=39314233
+mem_heap_B=27140324
+mem_heap_extra_B=49388
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=42403249
+mem_heap_B=27700548
+mem_heap_extra_B=49164
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=44950729
+mem_heap_B=28160732
+mem_heap_extra_B=48980
+mem_stacks_B=0
+heap_tree=detailed
+n3: 28160732 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 22048816 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 22048816 0x10A594: main (main.cpp:14)
+ n1: 5962384 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 5962384 0x10A59C: main (main.cpp:16)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=47598457
+mem_heap_B=28630920
+mem_heap_extra_B=48768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=51339331
+mem_heap_B=29321196
+mem_heap_extra_B=48516
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=54152540
+mem_heap_B=29831400
+mem_heap_extra_B=48312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=56358980
+mem_heap_B=30231560
+mem_heap_extra_B=48152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=58620583
+mem_heap_B=30641724
+mem_heap_extra_B=47988
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=62040565
+mem_heap_B=31261972
+mem_heap_extra_B=47740
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=65570869
+mem_heap_B=31902228
+mem_heap_extra_B=47484
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=69156332
+mem_heap_B=32552488
+mem_heap_extra_B=47224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=72079867
+mem_heap_B=33082700
+mem_heap_extra_B=47012
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=74130892
+mem_heap_B=33452848
+mem_heap_extra_B=46864
+mem_stacks_B=0
+heap_tree=detailed
+n3: 33452848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16756700 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 16756700 0x10A594: main (main.cpp:14)
+ n1: 16546616 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 16546616 0x10A59C: main (main.cpp:16)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=77881840
+mem_heap_B=34133120
+mem_heap_extra_B=46592
+mem_stacks_B=0
+heap_tree=detailed
+n3: 34133120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 17907160 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 17907160 0x10A59C: main (main.cpp:16)
+ n1: 16076428 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 16076428 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=81743110
+mem_heap_B=34833400
+mem_heap_extra_B=46312
+mem_stacks_B=0
+heap_tree=detailed
+n3: 34833400 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 19307720 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 19307720 0x10A59C: main (main.cpp:16)
+ n1: 15376148 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 15376148 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=85659543
+mem_heap_B=35543684
+mem_heap_extra_B=46028
+mem_stacks_B=0
+heap_tree=detailed
+n3: 35543684 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 20728288 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 20728288 0x10A59C: main (main.cpp:16)
+ n1: 14665864 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 14665864 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=89631135
+mem_heap_B=36263972
+mem_heap_extra_B=45740
+mem_stacks_B=0
+heap_tree=detailed
+n3: 36263972 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 22168864 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 22168864 0x10A59C: main (main.cpp:16)
+ n1: 13945576 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 13945576 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=93713049
+mem_heap_B=37004268
+mem_heap_extra_B=45444
+mem_stacks_B=0
+heap_tree=detailed
+n3: 37004268 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 23649456 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 23649456 0x10A59C: main (main.cpp:16)
+ n1: 13205280 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 13205280 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=95809167
+mem_heap_B=37384420
+mem_heap_extra_B=45292
+mem_stacks_B=0
+heap_tree=detailed
+n3: 37384420 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24409760 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 24409760 0x10A59C: main (main.cpp:16)
+ n1: 12825128 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 12825128 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=99008501
+mem_heap_B=37954648
+mem_heap_extra_B=45040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=102152680
+mem_heap_B=38534880
+mem_heap_extra_B=44832
+mem_stacks_B=0
+heap_tree=detailed
+n3: 38534880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 26710680 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 26710680 0x10A59C: main (main.cpp:16)
+ n1: 11674668 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 11674668 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=104303957
+mem_heap_B=38925036
+mem_heap_extra_B=44676
+mem_stacks_B=0
+heap_tree=detailed
+n3: 38925036 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 27490992 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 27490992 0x10A59C: main (main.cpp:16)
+ n1: 11284512 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 11284512 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=106455238
+mem_heap_B=39315192
+mem_heap_extra_B=44520
+mem_stacks_B=0
+heap_tree=detailed
+n3: 39315192 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 28271304 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 28271304 0x10A59C: main (main.cpp:16)
+ n1: 10894356 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 10894356 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=108661678
+mem_heap_B=39715352
+mem_heap_extra_B=44360
+mem_stacks_B=0
+heap_tree=detailed
+n3: 39715352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 29071624 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 29071624 0x10A59C: main (main.cpp:16)
+ n1: 10494196 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 10494196 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=110868118
+mem_heap_B=40115512
+mem_heap_extra_B=44200
+mem_stacks_B=0
+heap_tree=detailed
+n3: 40115512 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 29871944 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 29871944 0x10A59C: main (main.cpp:16)
+ n1: 10094036 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 10094036 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=113129717
+mem_heap_B=40525676
+mem_heap_extra_B=44036
+mem_stacks_B=0
+heap_tree=detailed
+n3: 40525676 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 30692272 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 30692272 0x10A59C: main (main.cpp:16)
+ n1: 9683872 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 9683872 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=115391320
+mem_heap_B=40935840
+mem_heap_extra_B=43872
+mem_stacks_B=0
+heap_tree=detailed
+n3: 40935840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 31512600 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 31512600 0x10A59C: main (main.cpp:16)
+ n1: 9273708 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 9273708 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=117652919
+mem_heap_B=41346004
+mem_heap_extra_B=43708
+mem_stacks_B=0
+heap_tree=detailed
+n3: 41346004 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32332928 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 32332928 0x10A59C: main (main.cpp:16)
+ n1: 8863544 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 8863544 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=119969681
+mem_heap_B=41766172
+mem_heap_extra_B=43540
+mem_stacks_B=0
+heap_tree=detailed
+n3: 41766172 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 33173264 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 33173264 0x10A59C: main (main.cpp:16)
+ n1: 8443376 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 8443376 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=122286443
+mem_heap_B=42186340
+mem_heap_extra_B=43372
+mem_stacks_B=0
+heap_tree=detailed
+n3: 42186340 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 34013600 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 34013600 0x10A59C: main (main.cpp:16)
+ n1: 8023208 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 8023208 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=124658364
+mem_heap_B=42616512
+mem_heap_extra_B=43200
+mem_stacks_B=0
+heap_tree=detailed
+n3: 42616512 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 34873944 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 34873944 0x10A59C: main (main.cpp:16)
+ n1: 7593036 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 7593036 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=127030289
+mem_heap_B=43046684
+mem_heap_extra_B=43028
+mem_stacks_B=0
+heap_tree=detailed
+n3: 43046684 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 35734288 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 35734288 0x10A59C: main (main.cpp:16)
+ n1: 7162864 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 7162864 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=129457373
+mem_heap_B=43486860
+mem_heap_extra_B=42852
+mem_stacks_B=0
+heap_tree=detailed
+n3: 43486860 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 36614640 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 36614640 0x10A59C: main (main.cpp:16)
+ n1: 6722688 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 6722688 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=131884457
+mem_heap_B=43927036
+mem_heap_extra_B=42676
+mem_stacks_B=0
+heap_tree=detailed
+n3: 43927036 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 37494992 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 37494992 0x10A59C: main (main.cpp:16)
+ n1: 6282512 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 6282512 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=134311541
+mem_heap_B=44367212
+mem_heap_extra_B=42500
+mem_stacks_B=0
+heap_tree=detailed
+n3: 44367212 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 38375344 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 38375344 0x10A59C: main (main.cpp:16)
+ n1: 5842336 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 5842336 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=136793784
+mem_heap_B=44817392
+mem_heap_extra_B=42320
+mem_stacks_B=0
+heap_tree=detailed
+n3: 44817392 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 39275704 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 39275704 0x10A59C: main (main.cpp:16)
+ n1: 5392156 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 5392156 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=138779580
+mem_heap_B=45167532
+mem_heap_extra_B=42156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=139276031
+mem_heap_B=45267572
+mem_heap_extra_B=42140
+mem_stacks_B=0
+heap_tree=detailed
+n3: 45267572 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40176064 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 40176064 0x10A59C: main (main.cpp:16)
+ n1: 4941976 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 4941976 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=141362075
+mem_heap_B=45647724
+mem_heap_extra_B=41988
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=141813437
+mem_heap_B=45727756
+mem_heap_extra_B=41956
+mem_stacks_B=0
+heap_tree=detailed
+n3: 45727756 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 41096432 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 41096432 0x10A59C: main (main.cpp:16)
+ n1: 4481792 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 4481792 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=143899481
+mem_heap_B=46107908
+mem_heap_extra_B=41804
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=144350839
+mem_heap_B=46187940
+mem_heap_extra_B=41772
+mem_stacks_B=0
+heap_tree=detailed
+n3: 46187940 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 42016800 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 42016800 0x10A59C: main (main.cpp:16)
+ n1: 4021608 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 4021608 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=146436887
+mem_heap_B=46568092
+mem_heap_extra_B=41620
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=146943408
+mem_heap_B=46658128
+mem_heap_extra_B=41584
+mem_stacks_B=0
+heap_tree=detailed
+n3: 46658128 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 42957176 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 42957176 0x10A59C: main (main.cpp:16)
+ n1: 3551420 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 3551420 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=149029452
+mem_heap_B=47038280
+mem_heap_extra_B=41432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=149535973
+mem_heap_B=47128316
+mem_heap_extra_B=41396
+mem_stacks_B=0
+heap_tree=detailed
+n3: 47128316 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 43897552 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 43897552 0x10A59C: main (main.cpp:16)
+ n1: 3081232 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 3081232 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=151622021
+mem_heap_B=47508468
+mem_heap_extra_B=41244
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=152183701
+mem_heap_B=47608508
+mem_heap_extra_B=41204
+mem_stacks_B=0
+heap_tree=detailed
+n3: 47608508 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 44857936 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 44857936 0x10A59C: main (main.cpp:16)
+ n1: 2601040 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 2601040 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=154269749
+mem_heap_B=47988660
+mem_heap_extra_B=41052
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=154831429
+mem_heap_B=48088700
+mem_heap_extra_B=41012
+mem_stacks_B=0
+heap_tree=detailed
+n3: 48088700 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 45818320 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 45818320 0x10A59C: main (main.cpp:16)
+ n1: 2120848 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 2120848 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=156917477
+mem_heap_B=48468852
+mem_heap_extra_B=40860
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=157534320
+mem_heap_B=48578896
+mem_heap_extra_B=40816
+mem_stacks_B=0
+heap_tree=detailed
+n3: 48578896 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 46798712 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 46798712 0x10A59C: main (main.cpp:16)
+ n1: 1630652 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 1630652 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=159620364
+mem_heap_B=48959048
+mem_heap_extra_B=40664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=160237207
+mem_heap_B=49069092
+mem_heap_extra_B=40620
+mem_stacks_B=0
+heap_tree=detailed
+n3: 49069092 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 47779104 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 47779104 0x10A59C: main (main.cpp:16)
+ n1: 1140456 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 1140456 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=162323255
+mem_heap_B=49449244
+mem_heap_extra_B=40468
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=162995257
+mem_heap_B=49569292
+mem_heap_extra_B=40420
+mem_stacks_B=0
+heap_tree=detailed
+n3: 49569292 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 48779504 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 48779504 0x10A59C: main (main.cpp:16)
+ n1: 640256 0x10A9B7: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (new_allocator.h:111)
+  n0: 640256 0x10A594: main (main.cpp:14)
+ n0: 149532 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=165081305
+mem_heap_B=49949444
+mem_heap_extra_B=40268
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=165753307
+mem_heap_B=50069492
+mem_heap_extra_B=40220
+mem_stacks_B=0
+heap_tree=peak
+n2: 50069492 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 49779904 0x10AC8E: ED::OptDistance() (new_allocator.h:111)
+  n0: 49779904 0x10A59C: main (main.cpp:16)
+ n0: 289588 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=71
+#-----------
+time=440491786
+mem_heap_B=50190053
+mem_heap_extra_B=40171
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=442972638
+mem_heap_B=50206069
+mem_heap_extra_B=40179
+mem_stacks_B=0
+heap_tree=empty
